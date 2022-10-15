@@ -1,1 +1,2 @@
-The unofficial website for Magic Number Studios
+The unofficial website for Magic Number Studios.
+Created by Charlotte Green.
