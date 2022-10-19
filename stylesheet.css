@@ -29,6 +29,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: -20px;
+  background-color: rgba(30, 29, 29, 0.142);
 }
 
 .linkitem {
@@ -40,9 +44,13 @@ header {
 .project {
   vertical-align: auto;
   background-color: rgb(176, 175, 167);
-  display: flex;
-  margin: 10px;
+  margin: 30px;
   border: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4px;
 }
 
 .CEO {
@@ -76,4 +84,33 @@ button {
 
 button:hover {
   background-color: rgba(30, 29, 29, 0.142);
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid rgb(69, 69, 62); 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: rgb(203, 215, 186);
+  color: rgba(30, 29, 29, 0.926);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6b826cfc;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
