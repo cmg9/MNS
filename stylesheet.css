@@ -16,6 +16,7 @@ header {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 5px;
+  border-radius: 7x;
 }
 
 .links {
@@ -39,6 +40,9 @@ header {
 .project {
   vertical-align: auto;
   background-color: rgb(176, 175, 167);
+  display: flex;
+  margin: 10px;
+  border: 10px;
 }
 
 .CEO {
@@ -62,3 +66,14 @@ a:hover {
   background-color: transparent;
 }
 
+button {
+  background-color: rgb(203, 215, 186);
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: rgba(30, 29, 29, 0.142);
+}
